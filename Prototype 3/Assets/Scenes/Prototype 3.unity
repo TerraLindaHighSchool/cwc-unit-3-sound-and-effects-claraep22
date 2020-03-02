@@ -596,6 +596,7 @@ MonoBehaviour:
   jumpForce: 15
   gravityModifier: 1
   isOnGround: 1
+  gameOver: 0
 --- !u!1 &2014335011
 GameObject:
   m_ObjectHideFlags: 0
@@ -610,7 +611,7 @@ GameObject:
   - component: {fileID: 2014335012}
   m_Layer: 9
   m_Name: Ground
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -698,6 +699,11 @@ PrefabInstance:
     - target: {fileID: 1959971864679962171, guid: 6125653f4ea5e4d69b0196b469cbb06a,
         type: 3}
       propertyPath: m_Name
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959971864679962171, guid: 6125653f4ea5e4d69b0196b469cbb06a,
+        type: 3}
+      propertyPath: m_TagString
       value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 1959971864680243739, guid: 6125653f4ea5e4d69b0196b469cbb06a,
